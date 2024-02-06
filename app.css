@@ -1,0 +1,24 @@
+.bg-light {
+    background-color: #eceff1 !important;
+}
+.apexcharts-yaxis-texts-g, .apexcharts-toolbar {
+    display: none!important;
+}
+.notification-dot{
+    width:8px;
+    height:8px;
+    border-radius: 50px;
+    background-color: red;
+    position:absolute;
+}
+
+@media screen and (min-width:992px){
+    .main-content{
+        margin-left:290px;
+    }
+}
+@media screen and (max-width:992px) {
+    .main-content {
+        padding-top: 110px;
+    }
+}
